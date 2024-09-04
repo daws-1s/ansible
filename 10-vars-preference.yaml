@@ -4,12 +4,12 @@
     COURSE: "DevOps with AWS from PLAY level"
     DURATION: "120HRS"
     TRAINER: "Sivakumar Reddy M"
-  vars_files:
-  - vars.yaml
-  vars_prompt:
-  - name: COURSE
-    prompt: Please enter the course name
-    private: false # not confidential
+  # vars_files:
+  # - vars.yaml
+  # vars_prompt:
+  # - name: COURSE
+  #   prompt: Please enter the course name
+  #   private: false # not confidential
   tasks:
   - name: print the information
     vars:
