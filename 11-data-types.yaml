@@ -14,12 +14,12 @@
     live: true #boolean
     tools: #map/dictionary
       ci: jenkins # string
-      cm: ansible
+     cm: ansible
       cloud: aws
       aws:
       - IAM
       - S3
-      tasks:
+  tasks:
   - name: print the course information
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{ course }}, with duration: {{ duration }}, topics are: {{ topics }}, and live: {{ live }}, tools are: {{ tools }}"
+      msg: "Hi, I am learning {{ course }}, with duration: {{ duration }}, topics are: {{ topics }}, and live: {{ live }}, tools are: {{ tools }}" 
