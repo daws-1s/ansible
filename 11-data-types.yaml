@@ -14,7 +14,7 @@
     live: true #boolean
     tools: #map/dictionary
       ci: jenkins # string
-     cm: ansible
+      cm: ansible
       cloud: aws
       aws:
       - IAM
